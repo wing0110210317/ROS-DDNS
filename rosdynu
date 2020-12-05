@@ -1,10 +1,10 @@
 /system script
 add name=Dynu
 policy=read,write,test
-:global ddnsuser "zhaoxyun"
-:global ddnspass "zxy1240"
-:global theinterface "ADSL"
-:global ddnshost "zhaoxun.ddnsfree.com"
+:global ddnsuser "your_Dynu_username"
+:global ddnspass "your_Dynu_password"
+:global theinterface "WAN_Interface_Name"
+:global ddnshost "your_Dynu_hostname"
 :global ipddns [:resolve $ddnshost];
 :global ipfresh [ /ip address get [/ip address find interface=$theinterface ] address ]
 :if ([ :typeof $ipfresh ] = nil ) do={
