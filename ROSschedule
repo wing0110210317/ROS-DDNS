@@ -1,0 +1,6 @@
+:execute script="Pubyun"
+:execute script="Dynu"
+:execute script="jellyfin"
+:execute script="cloudcmd"
+:execute script="openwrt"
+:execute script="webdav"
