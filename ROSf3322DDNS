@@ -1,6 +1,6 @@
-:local ednsuser "zxy19830119"
-:local ednspass "zxy82171240"
-:local ednshost "zhaoxiaoyun.f3322.net"
+:local ednsuser "****"
+:local ednspass "****"
+:local ednshost "*.f3322.net"
 :local ednsinterface "ADSL"
 :local members "http://members.3322.net/dyndns/update?system=dyndns"
 :local status
