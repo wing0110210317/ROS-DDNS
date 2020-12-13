@@ -1,7 +1,7 @@
-:local ednsuser "****"
-:local ednspass "****"
-:local ednshost "*.f3322.net"
-:local ednsinterface "ADSL"
+:local ednsuser "your_f3322_username"
+:local ednspass "your_f3322_password"
+:local ednshost "your_f3322_hostname"
+:local ednsinterface "WAN_Interface_Name"
 :local members "http://members.3322.net/dyndns/update?system=dyndns"
 :local status
 :local status [/interface get [/interface find name=$ednsinterface] running]
